@@ -20,8 +20,8 @@ class ViewController: UIViewController {
         barChart.descriptionText = ""
         barChart.xAxis.labelPosition = .Bottom
         barChart.xAxis.setLabelsToSkip(0)
-        barChart.leftAxis.customAxisMin = 0.0
-        barChart.leftAxis.customAxisMax = 1000.0
+        barChart.leftAxis.axisMinValue = 0.0
+        barChart.leftAxis.axisMaxValue = 1000.0
         barChart.rightAxis.enabled = false
         barChart.xAxis.drawGridLinesEnabled = false
         barChart.legend.enabled = false
